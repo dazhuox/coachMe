@@ -12,20 +12,20 @@ CoachMe revolutionizes your fitness journey by providing personalized workout pl
 
 * Responsive Design: Whether you're using CoachMe on your desktop or mobile device, our responsive design ensures a seamless experience across all platforms.
 
-## Technologies Used:
-CoachMe is built using a combination of cutting-edge technologies to deliver a seamless user experience:
+## Technologies Used
+### CoachMe is built using a combination of cutting-edge technologies to deliver a seamless user experience:
 
-React: Powers the dynamic and interactive elements of CoachMe's interface.
+* React: Powers the dynamic and interactive elements of CoachMe's interface.
 
-JavaScript: Provides the functionality and logic behind CoachMe's workout generation system.
+* JavaScript: Provides the functionality and logic behind CoachMe's workout generation system.
 
-CSS: Styles CoachMe's layout and design for a visually appealing experience.
+* CSS: Styles CoachMe's layout and design for a visually appealing experience.
 
-Bootstrap: Ensures consistency and responsiveness across different screen sizes and devices.
+* Bootstrap: Ensures consistency and responsiveness across different screen sizes and devices.
 
-Figma: Used for designing CoachMe's intuitive user interface, ensuring both aesthetics and usability.
+* Figma: Used for designing CoachMe's intuitive user interface, ensuring both aesthetics and usability.
 
-Visual Studio Code: The development environment for building and testing CoachMe's features and functionalities.
+* Visual Studio Code: The development environment for building and testing CoachMe's features and functionalities.
 
 ### Contributing
 We welcome contributions from the community to make CoachMe even better! Whether you have ideas for new features, bug fixes, or improvements, feel free to submit a pull request. Please open an issue first to discuss any significant changes or additions.
