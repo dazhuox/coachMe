@@ -1,5 +1,7 @@
 Julien Bergeron, Tong Wu, Da Zhuo Xie, Corey Zhao
 
+### Link to website: https://coach-1bzgwmr1k-da-zhuo-xies-projects.vercel.app/
+
 # CoachMe: Your Personal Fitness Coach
 CoachMe revolutionizes your fitness journey by providing personalized workout plans tailored to your unique needs and preferences. Say goodbye to generic routines and hello to a fitness companion that understands your goals and helps you achieve them effectively.
 
