@@ -4,13 +4,13 @@ Julien Bergeron, Tong Wu, Da Zhuo Xie, Corey Zhao
 CoachMe revolutionizes your fitness journey by providing personalized workout plans tailored to your unique needs and preferences. Say goodbye to generic routines and hello to a fitness companion that understands your goals and helps you achieve them effectively.
 
 ## Features:
-Customized Workouts: Input your desired workout type, difficulty level, and targeted muscle groups to receive a tailored workout plan designed just for you.
+* Customized Workouts: Input your desired workout type, difficulty level, and targeted muscle groups to receive a tailored workout plan designed just for you.
 
-Exercise Variety: CoachMe harnesses the power of the Exercises API, offering a diverse range of exercises to keep your workouts engaging and effective.
+* Exercise Variety: CoachMe harnesses the power of the Exercises API, offering a diverse range of exercises to keep your workouts engaging and effective.
 
-Intuitive Interface: Our user-friendly design and navigation make it effortless to input your preferences and access personalized workout recommendations.
+* Intuitive Interface: Our user-friendly design and navigation make it effortless to input your preferences and access personalized workout recommendations.
 
-Responsive Design: Whether you're using CoachMe on your desktop or mobile device, our responsive design ensures a seamless experience across all platforms.
+* Responsive Design: Whether you're using CoachMe on your desktop or mobile device, our responsive design ensures a seamless experience across all platforms.
 
 ## Technologies Used:
 CoachMe is built using a combination of cutting-edge technologies to deliver a seamless user experience:
