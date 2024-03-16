@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.full-height-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, #66CBCB 0%, #4C9898 50%, #336565 100%);
+}
+
+/* Style for Welcome component */
+.welcome-heading {
+  color: #fff; /* Adjust if you have a specific heading color */
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.welcome-subheading {
+  color: #fff; /* Adjust if you have a specific subheading color */
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.welcome-motto {
+  color: #fff; /* Adjust if you have a specific subheading color */
+  font-size: 32px;
+  margin-bottom: 10vh;
+  margin-top: 3vh;
+}
+
+/* If using Bootstrap's button classes, override them as needed */
+.next-button {
+  background-color: #e6fff5; /* Button color */
+  border-color: #e6fff5; /* Button border color */
+  color: #336565; /* Button text color */
+  font-size: 1.5rem; /* Adjust button text size as needed */
+  padding: 10px 30px; /* Adjust padding to match the design */
+  border-radius: 13px; /* Rounded corners for the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #498989; /* Lighter color on hover */
+  border-color: #cee4e0; /* Lighter border on hover */
+  color: white;
+}
+
+.buttons-container { 
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+/* If using Bootstrap's button classes, override them as needed */
+.difficulty-button {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  background-color: #e6fff5; /* Button color */
+  border-color: #e6fff5; /* Button border color */
+  color: #336565; /* Button text color */
+  font-size: 1.5rem; /* Adjust button text size as needed */
+  padding: 10px 30px; /* Adjust padding to match the design */
+  border-radius: 13px; /* Rounded corners for the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.difficulty-subheading {
+  color: #fff; /* Adjust if you have a specific subheading color */
+  font-size: 48px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.difficulty-button.selected {
+  background-color: #22a6b3; /* The new background color for selected buttons */
+  color: white; /* Optional: change text color if needed */
+}
+
+/* Don't forget to make sure the :hover style doesn't override your selected style */
+.difficulty-button:hover, .difficulty-button.selected:hover {
+  background-color: #1e9aa8; /* Slightly different background color on hover for the selected button */
+}
+
+.checkbox-input {
+  position: absolute;
+  left: -9999px;
+}
+
+.checkboxes-container {
+  width: 60%;
+  height: 20vh;
+  padding: 1.5vh;
+  background-color: #99e6e1;
+  border: 2px solid #336565;
+  border-radius: 25px;
+}
+
+/* Style for the labels to look like buttons */
+.checkbox-label {
+  display: inline-block;
+  background-color: #e6fff5; /* Light green background */
+  color: #336565; /* Dark text color */
+  padding: 10px 30px;
+  margin: 5px; /* Adjust space between buttons */
+  border-radius: 15px;
+  border: 1px solid #336565;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif; /* Use the Montserrat font */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Style when the checkbox is checked */
+.checkbox-input:checked + .checkbox-label {
+  background-color: black; /* Darker shade for selected state */
+  color: #fff; /* White text color */
+  border: 2px solid #4ab9b9;
+}
+
+.full-height-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.exercise-card {
+  background-color: #ffffff; /* Light background for the card */
+  border: 1px solid #e0e0e0; /* Subtle border color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Increase padding for a better visual */
+  margin: 1rem;
+  cursor: pointer; /* Keep the cursor indication */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition for shadow on hover */
+}
+
+.exercise-summary, .exercise-details {
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif; /* Choose a font that matches your design */
+  font-size: 32px; /* Adjust the base font size as needed */
+
+}
+
+.exercise-summary strong, .exercise-details strong {
+  color: #333; /* Darker text for the labels */
+  font-weight: normal; /* You may not need bold here, but adjust as necessary */
+}
+
+.exercise-details {
+  border-top: 1px solid #e0e0e0; /* Lighter border color for separation */
+  margin-top: 10px;
+  display: none; /* Keep it hidden initially */
+  background-color: #f9f9f9; /* Slightly different background to distinguish details */
+  border-radius: 0 0 8px 8px; /* Rounded corners at the bottom */
+}
+
+.exercise-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More pronounced shadow on hover */
+}
+
+/* Visible details styling */
+.exercise-card .exercise-details {
+  display: block; /* Show details */
+}
+
+.muscle-label {
+  display: inline-block;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  position: relative;
+  margin-right: 1vw;
+}
+
+.label-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.muscle-checkbox {
+  display: none;
+}
+
+.muscle-button {
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+
+/* Style for when the checkbox is checked */
+.muscle-checkbox:checked + .muscle-button {
+  background-color: #7ed6df;
+  border-color: #22a6b3;
+}
+
+/* Optional: Add hover effect */
+.muscle-button:hover {
+  background-color: #e0e0e0;
+}
+
+.type-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.type-button.clicked {
+  background-color: #7ed6df;
+  border-color: #22a6b3;
+}
+
+/* Optional: add hover effects for .type-button */
+.type-button:hover {
+  background-color: #e0e0e0;
+}
+
+.difficulty-button.clicked {
+  background-color: #22a6b3; /* The new background color for clicked/selected buttons */
+  color: white; /* Optional: change text color if needed */
+}
+
+/* Ensure the hover style doesn't override your clicked style for the selected button */
+.difficulty-button:hover, .difficulty-button.clicked:hover {
+  background-color: #1e9aa8; /* Slightly different background color on hover for selected buttons */
+}
+
+.submit-button {
+  background-color: #e6fff5; /* Button color */
+  border-color: #e6fff5; /* Button border color */
+  color: #336565; /* Button text color */
+  font-size: 1.5rem; /* Adjust button text size as needed */
+  padding: 10px 30px; /* Adjust padding to match the design */
+  border-radius: 13px; /* Rounded corners for the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
